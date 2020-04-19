@@ -1,0 +1,14 @@
+{application, libsecp256k1,
+ [{description, "Erlang NIF bindings for the the libsecp256k1 library"},
+  {vsn, "0.1.10"},
+  {registered, []},
+  {applications,
+   [kernel,
+    stdlib
+   ]},
+  {env,[]},
+  {modules, []},
+
+  {licenses, ["MIT"]},
+  {links, []}
+ ]}.
