@@ -9,6 +9,7 @@ In order to build this library you will need the following:
 - `erlang`
 - `rebar3`
 - `make`
+- `automake`
 - `autoconf`
 - `libtool`
 - `libgmp10` and `libgmp-dev`
@@ -40,3 +41,7 @@ Unit tests
 ----------
 
     $ rebar3 eunit
+
+Known issues
+------------
+The NIF libsecp256k1:ec_seckey_verify/1 causes corruption of its argument.
